@@ -1,8 +1,8 @@
 ﻿//----------------------------------------------------------------------------
 //
-// <copyright file="AssemblyInfo.cs" project="BeepChecker" company="Appliberated">
-// Copyright (c) 2013-2017 Appliberated
-// https://appliberated.com
+// <copyright file="AssemblyInfo.cs" project="BeepChecker" company="Appgramming">
+// Copyright (c) 2013-2020 Appgramming
+// https://www.appgramming.com
 // Licensed under the MIT. See LICENSE file in the project root for full license information.
 // </copyright>
 //
@@ -17,11 +17,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("BeepChecker")]
-[assembly: AssemblyDescription("https://appliberated.com/beepchecker/")]
+[assembly: AssemblyDescription("https://www.appgramming.com/beepchecker/")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Appliberated")]
+[assembly: AssemblyCompany("Appgramming")]
 [assembly: AssemblyProduct("BeepChecker")]
-[assembly: AssemblyCopyright("Copyright ©  2013-2017 Appliberated")]
+[assembly: AssemblyCopyright("Copyright (c) 2013-2020 Appgramming")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -43,7 +43,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.1.0.25")]
-[assembly: AssemblyFileVersion("2.1.0.25")]
+[assembly: AssemblyVersion("2.1.1.27")]
+[assembly: AssemblyFileVersion("2.1.1.27")]
 [assembly: CLSCompliant(true)]
 [assembly: NeutralResourcesLanguageAttribute("en")]

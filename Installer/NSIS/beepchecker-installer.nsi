@@ -19,7 +19,7 @@
   OutFile "output\beepchecker-installer.exe"
 
   ;The default installation directory
-  InstallDir "$PROGRAMFILES64\Appliberated\BeepChecker"
+  InstallDir "$PROGRAMFILES64\Appgramming\BeepChecker"
 
 ;--------------------------------------
 
@@ -53,15 +53,15 @@
 
 ;Version Information
 
-  VIProductVersion "2.1.0.25"
+  VIProductVersion "2.1.1.27"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "BeepChecker"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "Comments" "Play, test or learn the beeps of your PC"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "Appliberated"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "Appgramming"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalTrademarks" ""
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright © 2013-2017 Appliberated (https://appliberated.com)"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright © 2013-2020 Appgramming (https://www.appgramming.com)"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "BeepChecker Installer"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.1.0.25"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.1.0.25"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.1.1.27"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.1.1.27"
 
 ;--------------------------------------
 
@@ -83,16 +83,16 @@ Section
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "UninstallString" "$\"$INSTDIR\uninstall.exe$\""
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "QuietUninstallString" "$\"$INSTDIR\uninstall.exe$\" /S"
   
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayVersion" "2.1.0.25"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayVersion" "2.1.1.27"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayIcon" "$\"$INSTDIR\beepchecker.exe$\""
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "EstimatedSize" "102"
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "HelpLink" "https://appliberated.com/beepchecker/"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "HelpLink" "https://www.appgramming.com/beepchecker/"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "InstallLocation" "$INSTDIR"
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "NoModify" "1"
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "NoRepair" "1"
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "Publisher" "Appliberated"
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "URLInfoAbout" "https://appliberated.com/beepchecker/"
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "URLUpdateInfo" "https://appliberated.com/beepchecker/"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "Publisher" "Appgramming"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "URLInfoAbout" "https://www.appgramming.com/beepchecker/"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "URLUpdateInfo" "https://www.appgramming.com/beepchecker/"
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "VersionMajor" "2"
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "VersionMinor" "1"
 SectionEnd
@@ -110,7 +110,7 @@ Section "Uninstall"
   Delete "$INSTDIR\license.txt"
   Delete "$INSTDIR\HomePage.html"
   RMDir "$INSTDIR"
-  RMDir "$PROGRAMFILES64\Appliberated"
+  RMDir "$PROGRAMFILES64\Appgramming"
 
   ; Delete Start Menu shortcut
   Delete "$SMPROGRAMS\BeepChecker.lnk"

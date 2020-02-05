@@ -8,11 +8,11 @@
 	"$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
 	"settings": {
 		"documentationRules": {
-			"companyName": "Appliberated",
+			"companyName": "Appgramming",
 			"copyrightText": "Copyright (c) {years} {companyName}\n{url}\nLicensed under the {licenseName}. See {licenseFile} file in the project root for full license information.",
 			"variables": {
-				"url": "https://appliberated.com",
-				"years": "2013-2017",
+				"url": "https://www.appgramming.com",
+				"years": "2013-2020",
 				"licenseName": "MIT",
 				"licenseFile": "LICENSE"
 			}

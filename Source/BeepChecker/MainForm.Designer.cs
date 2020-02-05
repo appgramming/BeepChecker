@@ -463,7 +463,7 @@
             this.homeLinkLabel.Size = new System.Drawing.Size(178, 19);
             this.homeLinkLabel.TabIndex = 7;
             this.homeLinkLabel.TabStop = true;
-            this.homeLinkLabel.Text = "https://appliberated.com";
+            this.homeLinkLabel.Text = "https://www.appgramming.com";
             this.homeLinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.homeLinkLabel.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(173)))), ((int)(((byte)(246)))));
             this.homeLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EventHomeLinkLabelLinkClicked);

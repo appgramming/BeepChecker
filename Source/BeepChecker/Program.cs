@@ -1,8 +1,8 @@
 ﻿//----------------------------------------------------------------------------
 //
-// <copyright file="Program.cs" project="BeepChecker" company="Appliberated">
-// Copyright (c) 2013-2017 Appliberated
-// https://appliberated.com
+// <copyright file="Program.cs" project="BeepChecker" company="Appgramming">
+// Copyright (c) 2013-2020 Appgramming
+// https://www.appgramming.com
 // Licensed under the MIT. See LICENSE file in the project root for full license information.
 // </copyright>
 //
